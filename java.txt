@@ -1,0 +1,60 @@
+import java.util.Scanner;
+public class JavaExample {
+
+  public static void main(String[] args) {
+
+    double num1, num2, sum;
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Enter First Number: ");
+    num1 = sc.nextDouble();
+
+    System.out.print("Enter Second Number: ");
+    num2 = sc.nextDouble();
+
+    sc.close();
+    sum = num1 + num2;
+    System.out.println("Sum of "+num1+" and "+num2+" is: "+sum);
+  }
+}
+
+
+o/p
+enter first number 20:5
+enter second number 5:5
+sum of 20:5 and 5:5 is a:26:0
+
+
+
+http://13.233.230.35:8080/
+
+
+git config --global user.name "devi"
+git config --global user.email "deviece271198@gmail.com"
+git config --global core.editor vim
+git config --global core.compression 2
+git config --global diff.tool vim.diff
+
+=========================================================================
+
+curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee \
+  /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+  https://pkg.jenkins.io/debian binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt update
+sudo apt install jenkins
+
+
+
+
+http://43.204.36.202:8080/
+
+
+
+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
+    
+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
+
+
+
+http://3.109.144.145:8080/
