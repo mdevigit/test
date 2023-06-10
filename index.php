@@ -3,6 +3,6 @@
 <title>PHP Test</title>
 </head>
 <body>
-<?php echo '<p> server host from php ! </p>'; ?>
+<?php echo '<p> server from php ! </p>'; ?>
 </body>
 </html>
